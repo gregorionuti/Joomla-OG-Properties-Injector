@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" version="4.0" method="upgrade">
+    <identifier>plg://site/og_properties_injector</identifier>
+	<name>OG Properties Injector</name>
+	<author>Gregorio Nuti</author>
+	<creationDate>Jul 2023</creationDate>
+	<copyright>Copyright Gregorio Nuti 2014-2023</copyright>
+	<version>1.0.0</version>
+    <license>GNU General Public License version 2 or later</license>
+	<description>Inject OG properties into Joomla pages head.</description>
+	<files>
+		<filename plugin="og_properties_injector">og_properties_injector.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                
+			</fieldset>
+		</fields>
+	</config>
+</extension>
